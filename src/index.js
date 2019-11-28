@@ -8,7 +8,7 @@ function addListItem(event) {
   li.innerText =inputValue.value;
   btn.innerHTML = "X";
   btn.onclick=function() {
-    this.parentNode.remove(this);
+    this.parentNode.remove();
     
   };
   li.appendChild(btn);
