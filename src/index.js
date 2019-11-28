@@ -9,7 +9,6 @@ function addListItem(event) {
   btn.innerHTML = "X";
   btn.onclick=function() {
     this.parentNode.remove();
-    
   };
   li.appendChild(btn);
   ul.appendChild(li);
